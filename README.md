@@ -1,2 +1,2 @@
 # CompanyWebsite
-Software Solution Company
+This website is for Software Solution Company. It is trademark of the owner
