@@ -1,0 +1,11 @@
+ #myCarousel img {
+     width: 100%;
+     height: 60vh;
+ }
+
+ @media(max-width:500px) {
+     #myCarousel img {
+         width: 100%;
+         height: 30vh;
+     }
+ }
