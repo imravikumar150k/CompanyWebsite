@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float|fire-animation">
     <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -20,67 +21,201 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand" href="index.html"><img src="Images/icon.png" class="MainIcon"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span><img src="Images/svg/house.svg" class="icon"></span>&nbsp;Home</a></li>
+                    <li><a href="index.html" class="font18"><span><img src="Images/svg/house.svg" class="icon"></span>&nbsp;Home</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span><img src="Images/svg/settings.svg" class="icon"></span>&nbsp;Services <span class="caret"></span></a>
+                        <a class="dropdown-toggle font18" data-toggle="dropdown" href="#"><span><img src="Images/svg/settings.svg" class="icon"></span>&nbsp;Services <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><span><img src="Images/svg/web.svg" class="icon"></span>&nbsp;Web Development</a></li>
-                            <li><a href="#"><span><img src="Images/svg/app.svg" class="icon"></span>&nbsp;App Development</a></li>
-                            <li><a href="#"><span><img src="Images/svg/Others.svg" class="icon"></span>&nbsp;Custom Development</a></li>
+                            <li><a href="Services/web.html" class="font18"><span><img src="Images/svg/web.svg" class="icon"></span>&nbsp;Web Development</a></li>
+                            <li><a href="Services/app.html" class="font18"><span><img src="Images/svg/app.svg" class="icon"></span>&nbsp;App Development</a></li>
+                            <li><a href="Services/custom.html" class="font18"><span><img src="Images/svg/Others.svg" class="icon"></span>&nbsp;Custom Development</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span><img src="Images/svg/coin.svg" class="icon"></span>&nbsp;Pricing</a></li>
-                    <li><a href="#"><span><img src="Images/svg/phone-call.svg" class="icon"></span>&nbsp;Contact Us</a></li>
-                    <li><a href="#"><span><img src="Images/svg/information.svg" class="icon"></span>&nbsp;About Us</a></li>
+                    <li><a href="pricing.html" class="font18"><span><img src="Images/svg/coin.svg" class="icon"></span>&nbsp;Pricing</a></li>
+                    <li><a href="contact.html" class="font18"><span><img src="Images/svg/phone-call.svg" class="icon"></span>&nbsp;Contact Us</a></li>
+                    <li class="active"><a href="about.html" class="font18"><span><img src="Images/svg/information.svg" class="icon"></span>&nbsp;About Us</a></li>
                 </ul>
 
             </div>
         </div>
     </nav>
-    <div id="myCarousel" class="carousel slide " data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+    <div class="container-fluid WhiteBg">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide " data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
 
 
-            <div class="item active">
-                <img src="Images/Technology.jpg" alt="Technology">
-            </div>
+                    <div class="item active">
+                        <img src="Images/Technology.jpg" alt="Technology">
+                        <div class="carousel-caption">
+                            <h3 class="golden bold">Latest Technologies</h3>
+                            <h4 class="golden">We use latest technologies in development which makes the product more efficient.</h4>
+                        </div>
+                    </div>
 
-            <div class="item ">
-                <img src="Images/Developers.jpg" alt="Developers">
-            </div>
+                    <div class="item ">
+                        <img src="Images/Developers.jpg" alt="Developers">
+                        <div class="carousel-caption">
+                            <h3 class="golden bold">Team Players</h3>
+                            <h4 class="golden">We work and grow together by helping each others which makes us team player.</h4>
+                        </div>
+                    </div>
 
-            <div class="item">
-                <img src="Images/Customer.jpg" alt="Customer">
+                    <div class="item">
+                        <img src="Images/Customer.jpg" alt="Customer">
+                        <div class="carousel-caption">
+                            <h3 class="golden bold">Excellent Services</h3>
+                            <h4 class="golden">We provide quality product on time at reasonable price with full customer satisfaction.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
             </div>
         </div>
+        <div class="row">
+            <h1 class="center golden bold BlackBg">Our Services</h1>
+            <div class="WhiteBg">
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Services/www.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Website Development</h3>
+                    <p class="center justify padding10 font16  text-primary">We are highly skilled in Website development. We have large varieties of website designs....</p>
+                    <center><a href="Services/web.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Services/app.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Mobile App Development</h3>
+                    <p class="center justify padding10 font16  text-primary">We are highly skilled especially in Android development. We have large varieties of app mocks....</p>
+                    <center><a href="Services/app.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Services/code.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Custom App Development</h3>
+                    <p class="center justify padding10 font16  text-primary">We have solved various problems and we assure you to provide custom apps/websites..</p>
+                    <center><a href="Services/custom.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Services/promotion.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Business Development</h3>
+                    <p class="center justify padding10 font16  text-primary">We help in business development by providing efficient way of doing business for customer success..</p>
+                    <center><a href="Services/business.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="center golden bold BlackBg">Our Products</h1>
+            <div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Products/school.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Educational Website</h3>
+                    <p class="center justify padding10 font16  text-primary">In this digital era, we can't imagine an educational organization having no websites. So, we have developed an educational website so that students and teachers can get information from anywhere, anytime...</p>
+                    <center><a href="Products/educational.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Products/bus.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Transport Management Website</h3>
+                    <p class="center justify padding10 font16  text-primary">It is very difficult to know the timings of bus services without a website. So, we have developed a transport website through which any transport service can increase its business by updating informations related to it..</p>
+                    <center><a href="Products/transport.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Products/blackboard.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">Account Management System</h3>
+                    <p class="center padding10 font16  text-primary justify">It's very difficult to maintain account stuffs on a record book. So, we have developed a software to maintain accounting stuffs online securely without need of paper work from anwhere, anytime.. </p>
+                    <center><a href="Products/accounts.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/Products/shopping-basket.svg" class="ServiceImage"></center>
+                    <h3 class="center bold">E-Commerce Websites</h3>
+                    <p class="center padding10 font16  text-primary justify">In this digital era, if we are not selling our stuffs online then we are very far behind the modern era. SO, we have developed an e-commerce website to sale products online..</p>
+                    <center><a href="Products/ecommerce.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="center golden bold BlackBg">About Us</h1>
+            <div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <center><img src="Images/svg/student.svg" class="ServiceImage"></center>
+                </div>
+                <div class="col-xs-12 col-sm-6 service1">
+                    <h3 class="center text text-danger">Who are we?</h3>
+                    <h4 class="justify text text-success">We are highly skilled software engineers having experience of more than four years. We have worked on many projects. </h4>
+                    <h3 class="center text text-danger">Why Us?</h3>
+                    <h4 class="text text-success justify">We provide quality product on time at reasonable price with full customer satisfaction.</h4>
+                    <h4 class="text-success">Now, We are looking to help you in the growth of your business!!</h4>
+                    <center><a href="about.html"><button class="btn btn-info">Read More</button></a></center>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <center>
+                <h2 class="golden bold BlackBg padall">Do you have any <span class="golden">Queries? </span><a href="contact.html"><button class="btn btn-primary">Contact Us</button></a></h2>
+            </center>
+        </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="row">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="FooterNav">
+                            <h4 class="golden">Quick Links</h4>
+                            <li> <a href="about.html"><span><img src="Images/svg/decree.svg" class="icon"></span> About Us</a></li>
+                            <li><a href="services.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Our Services</a></li>
+                            <li><a href="products.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Our Products</a></li>
+                            <li> <a href="prices.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Our Prices</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="FooterNav">
+                            <h4 class="golden">Our Products</h4>
+                            <li> <a href="Products/educational.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Educational Website
+                                </a></li>
+                            <li><a href="Products/transport.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Transport Management Website</a></li>
+                            <li><a href="Products/accounts.html"><span><img src="Images/svg/decree.svg" class="icon"></span> Account Management System</a></li>
+                            <li> <a href="Products/ecommerce.html"><span><img src="Images/svg/decree.svg" class="icon"></span> E-Commerce Websites</a></li>
+                        </ul>
+                    </div>
+                    <center>
+                        <div class="col-xs-12 col-sm-4">
+                            <ul class="FooterNav">
+                                <h4 class="golden">Follow Us On:</h4>
+                                <div class="fb-page fb-like" data-href="https://www.facebook.com/GadhiMaiSoftwareSolutions" data-width="340" data-hide-cover="false" data-show-facepile="true"></div>
+                            </ul>
+                        </div>
+                    </center>
 
+                </div>
+                <div>
+                    <center>Copyright &copy; 2019, GadhiMai Software Solutions</center>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a>,&nbsp;<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                </div>
+
+
+            </div>
+        </div>
     </div>
-    <div class="footer">
-        <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0&appId=403295160551633&autoLogAppEvents=1"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
