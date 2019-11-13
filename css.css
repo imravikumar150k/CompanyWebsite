@@ -159,3 +159,13 @@
      width: 50px;
      height: 50px;
  }
+
+ .fb-like {
+     max-height: 300px;
+ }
+
+ html,
+ body {
+     max-width: 100%;
+     overflow-x: hidden;
+ }
