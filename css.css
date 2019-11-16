@@ -169,3 +169,65 @@
      max-width: 100%;
      overflow-x: hidden;
  }
+
+ .headbg {
+     background-image: url('images/about-bg1.jpg');
+     background-size: cover;
+
+ }
+
+ .margintop {
+     margin-top: -20px;
+ }
+
+ .headbg h1 {
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .white {
+     color: white;
+ }
+
+ .htext {
+     margin: auto;
+     padding: 20px;
+ }
+
+ .undecorateli {
+     list-style: none;
+     text-align: justify;
+     padding: 1px;
+
+ }
+
+ .font16 {
+     font: 16px;
+ }
+
+ .tech {
+     height: 100px;
+     padding: 5px;
+     margin: auto;
+ }
+
+ .blue {
+     color: #0078FF;
+ }
+
+ .marginall {
+     margin: 10px;
+ }
+
+ .floatright {
+     float: right;
+ }
+
+ margin-right-10 {
+     margin-right: 10px;
+ }
+
+ .all50 {
+     height: 50px;
+     width: 50px;
+ }
