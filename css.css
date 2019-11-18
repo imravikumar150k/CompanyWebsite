@@ -231,3 +231,20 @@
      height: 50px;
      width: 50px;
  }
+
+ .priceimg {
+     height: 200px;
+     width: 100%;
+ }
+
+ .pricediv {
+     border: 2px solid coral;
+ }
+
+ .green {
+     color: green;
+ }
+
+ .marginbottom10 {
+     margin-bottom: 10px;
+ }
