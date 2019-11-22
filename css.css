@@ -171,8 +171,7 @@
  }
 
  .headbg {
-     background-image: url('images/about_bg.jpg');
-     background-size: cover;
+     background-color: #3E7AAF;
 
  }
 
@@ -247,4 +246,8 @@
 
  .marginbottom10 {
      margin-bottom: 10px;
+ }
+
+ .red {
+     color: red;
  }
